@@ -66,6 +66,7 @@
 
 .project-sub-container img {
   width: 100%;
+
   /* object-fit: cover; */
   border-radius: 0.5rem 3rem 0.5rem 0.5rem;
   opacity: 0.9;
@@ -79,6 +80,7 @@
 .link-container a {
   color: white;
   text-decoration: none;
+
   /* margin-top: 1rem; */
   width: 50%;
   height: 2.75rem;
