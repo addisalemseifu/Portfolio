@@ -1,6 +1,7 @@
-import projectFour from '../assets/pic-4.png';
-import projectFive from '../assets/pic55.png';
-import projectSix from '../assets/pic-7.png';
+import projectFour from '../assets/doc.png';
+import projectFive from '../assets/bolo4.png';
+import projectSix from '../assets/book.png';
+import projectSeven from '../assets/space.png';
 
 const projects = {
   1: {
@@ -60,6 +61,28 @@ const projects = {
     ),
     github: 'https://github.com/addisalemseifu/bookstore-app-with-react',
     demo: 'https://bookstore-app-99rq.onrender.com',
+  },
+  4: {
+    title: 'Bookstore App',
+    image: projectSeven,
+    description: (
+      <>
+        <p>
+          This is the User Interface
+          of React/Redux App
+          with the Weather
+          Forcaster fully
+          working fetching
+          appdated data from
+          a free API called
+          Weather API. We
+          also used Routing to navigate inside the website.
+          Built with: (React,  Redux,  Rails, HTML5, CSS)
+        </p>
+      </>
+    ),
+    github: 'https://github.com/addisalemseifu/space-travelers-hub-group-pro.git',
+    demo: 'https://space-travelers-hub-ppz7.onrender.com',
   },
 };
 

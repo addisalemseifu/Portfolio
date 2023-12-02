@@ -1,8 +1,8 @@
 .project-menu {
-  width: 45rem;
+  width: 60rem;
   position: fixed;
   display: flex;
-  top: 25%;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -66,9 +66,10 @@
 
 .project-sub-container img {
   width: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   border-radius: 0.5rem 3rem 0.5rem 0.5rem;
   opacity: 0.9;
+  height: 15rem;
 }
 
 .project-sub-container p {
@@ -78,7 +79,7 @@
 .link-container a {
   color: white;
   text-decoration: none;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   width: 50%;
   height: 2.75rem;
   text-align: center;
@@ -91,7 +92,7 @@
 
 @media (max-width: 1100px) {
   .project-menu {
-    width: 28rem;
+    width: 42rem;
     top: 20%;
     transform: translateX(-50%);
   }
@@ -108,7 +109,7 @@
 
 @media (max-width: 700px) {
   .project-menu {
-    width: 28rem;
+    width: 42rem;
     flex-direction: column;
     align-items: center;
   }
@@ -119,11 +120,11 @@
 
   .project-sub-container {
     margin-top: 1rem;
-    width: 12rem;
+    width: 22rem;
   }
 
   .project-sub-container img {
-    width: 12rem;
+    width: 22rem;
   }
 
   .link-container a {

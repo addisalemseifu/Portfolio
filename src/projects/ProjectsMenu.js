@@ -28,7 +28,7 @@ export default function ProjectsMenu() {
     </div>
   ));
 
-  const projectItems = ['PROJECT ONE', 'PROJECT TWO', 'PROJECT THREE'];
+  const projectItems = ['PROJECT ONE', 'PROJECT TWO', 'PROJECT THREE', 'PROJECT FOUR'];
 
   return (
     <div className="project-menu">
